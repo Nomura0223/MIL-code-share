@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 32px;
+}
+header{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_img{
+    width: 100%;
+    height: 200px;
+}
+
+main{
+    border-bottom:1px solid #ccc;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    margin: 50px;
+    width: 100%;
+    padding: 10px;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    display: flex;
+    justify-content: center;
+}
+li{
+    border: 1px solid #666;
+    display:table-cell;  /* 定義 */
+}
+li:hover{
+    border: #0066CC 4px solid;
+}
+
+
+/* ボタン */
+.btn{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main_content{
+    width: 50%;
+}
+
+#gu_btn{
+    background-image: url(../img/gu.png);
+}
+
+#cho_btn{
+    background-image: url(../img/cho.png);
+}
+
+#par_btn{
+    background-image: url(../img/par.png);
+}
+
+#pc_gu_btn{
+    background-image: url(../img/gu.png);
+    width: 200px;
+    height: 200px;
+}
+
+#pc_cho_btn{
+    background-image: url(../img/cho.png);
+    width: 200px;
+    height: 200px;
+}
+
+#pc_par_btn{
+    background-image: url(../img/par.png);
+    width: 200px;
+    height: 200px;
+}
+
+/* 勝敗結果 */
+.result{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+}
+
+/* score */
+footer{
+    background-color: #000;
+    /* border-bottom:1px solid #ccc; */
+    text-align: center;
+    color: #fff;
+}
+
+.score{
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
