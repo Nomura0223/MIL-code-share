@@ -1,0 +1,128 @@
+  /* input container */
+  .input-container {
+      max-width: 400px;
+      margin-top: 10px;
+      border-radius: 8px;
+      overflow: hidden;
+  }
+
+  .input-box {
+      width: 80%;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      float: left;
+      font-size: 18px;
+      /* margin: 10px 0px; */
+      box-sizing: border-box;
+
+  }
+
+  .send-button {
+      width: 20%;
+      height: 40px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #00bfff;
+      color: #fff;
+      cursor: pointer;
+      float: left;
+      box-sizing: border-box;
+      font-size: 18px;
+      /* margin: 10px 0px; */
+
+  }
+
+  .user-select {
+      float: right;
+      margin-right: 10px;
+      border-radius: 5px;
+  }
+
+  #output {
+      width: 400px;
+      height: 800px;
+      padding: 10px;
+      font-size: 18px;
+      margin: 10px 0px;
+      box-sizing: border-box;
+      overflow: auto;
+  }
+
+
+  /* line風CSS */
+
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+  }
+
+  .chat-container {
+      max-width: 400px;
+      margin: 50px auto;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+  }
+
+  .chat-header {
+      background-color: #00bfff;
+      color: #fff;
+      padding: 10px 0px;
+      text-align: center;
+      font-weight: bold;
+      display: flex;
+  }
+
+  .chat-messages {
+      overflow-y: scroll;
+      max-height: 600px;
+      padding: 10px;
+  }
+
+  .message-container {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+  }
+
+  .message-container-user {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+  }
+
+
+
+  .message {
+      margin-bottom: 10px;
+      overflow: hidden;
+      width: 80%;
+      border-radius: 8px;
+  }
+
+  .user-icon {
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  } 
+
+  .user-message {
+      background-color: #00bfff;
+      color: #fff;
+      padding: 10px;
+  }
+
+  .other-message {
+      background-color: #e0e0e0;
+      padding: 10px;
+  }

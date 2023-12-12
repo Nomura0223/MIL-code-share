@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Messenger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- コンテンツ表示画面 start -->
+    <div class="chat-container">
+        <div class="chat-header">
+            <div style="width: 400px">Messenger</div>
+            <select class="user-select" id="user">
+                <option value="user">user</option>
+                <option value="buke">buke</option>
+                <option value="caram">caram</option>
+                <option value="tuku">tuku</option>
+            </select>
+        </div>
+        <div class="chat-messages" id="output">
+            <!-- チャットメッセージが表示される -->
+        </div>
+        <div class="input-container">
+            <input type="text" class="input-box" id="text" placeholder="メッセージを入力">
+            <button id="send" class="send-button">送信</button>
+        </div>
+    </div>
+    <!--/ コンテンツ表示画面 end -->
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- JQuery -->
+
+    <script type="module" src="./js/index.js"></script>
+
+</body>
+
+</html>
