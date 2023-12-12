@@ -1,0 +1,129 @@
+/* ここから下に記載していく */
+
+header{
+    /* background-color: #707070; */
+    padding: 20px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 21px;
+}
+
+.content{
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.course_content{
+    text-align: left;
+    width: 480px;
+}
+
+
+.element{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main_title{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sub_title{
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title_yellow{
+    color: #f7d000;
+}
+
+.subtitle{
+    font-size: 16px;
+    text-align: center;
+}
+
+.margin_top_bottom_40px{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.news_content{
+    text-align: left;
+    width: 300px;
+    margin: 0px 15px;
+}
+
+
+.input_detail{
+    width: 400px;
+    height: 30px;
+    border: solid 1px #bfbfbf;
+    padding: 8px;
+}
+
+
+
+select{
+    width: 400px;
+    height: 30px;
+    border: solid 1px #bfbfbf;
+    padding: 8px;
+}
+
+/* form */
+.form_title{
+    border-top: solid 2px #bfbfbf;
+    border-right: solid 1px #bfbfbf;
+    border-bottom: solid 2px #bfbfbf;
+    padding: 5px 64px 5px 16px;
+    width: 240px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.form_contents{
+    border-top: solid 2px #bfbfbf;
+    border-bottom: solid 2px #bfbfbf;
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.checkbox {
+    font-size: 50px;
+    display: flex;
+  }
+
+#detail{
+    width: 400px;
+    height: 100px;
+    border: solid 1px #bfbfbf;
+    padding: 8px;
+
+}
+
+footer{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #707070;
+    padding: 30px 0px;
+    margin-top: 20px 0px 20px 0px;
+}
