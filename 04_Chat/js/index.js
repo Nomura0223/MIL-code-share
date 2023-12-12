@@ -8,7 +8,7 @@ import { addMsg } from "./functions.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAmz_KrrKcxCSuU6sr3LdvyEYRXX5tNAuQ",
+    apiKey: "",
     authDomain: "fir-demo-72eda.firebaseapp.com",
     projectId: "fir-demo-72eda",
     storageBucket: "fir-demo-72eda.appspot.com",
