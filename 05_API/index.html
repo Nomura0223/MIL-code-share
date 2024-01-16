@@ -8,6 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="./img/favicon.png" type="image/png">
   <title>じゃんけん</title>
 </head>
 
@@ -204,7 +205,6 @@
       }
     }
 
-
     // クリックした時の処理の関数
     function onMyHandClick(my_hand) {
       janken.setMyHand(my_hand);
@@ -238,7 +238,7 @@
 
     // alert("カメラを使ってじゃんけんをします。\nカメラを許可してください。\n(カメラ起動までしばらくお待ちください。)");
     $(document).ready(function () {
-      alert("カメラを使ってじゃんけんをします。\nカメラを許可してください。\n(カメラ起動まで5 ~ 10秒程お待ちください。)");
+      alert("カメラを使ってじゃんけんをします。\n\nカメラを許可してください。\n(カメラ起動まで10秒程お待ちください。)\n\n音も流れますので音量にご注意ください。");
       init();
     });
 
@@ -289,7 +289,6 @@
       $("#judgement").html("");
     }
 
-
     // run the webcam image through the image model
     async function predict() {
       // predict can take in an image, video or canvas html element
@@ -315,7 +314,6 @@
           $("#webcam-judgement").html("<div class='btn' id='par_btn'></div>");
           break;
       }
-
     }
 
     // 音声ファイル関連
@@ -324,7 +322,6 @@
     async function model_judge() {
       playAudio();
     }
-
 
     function playAudio() {
       audio.play();
