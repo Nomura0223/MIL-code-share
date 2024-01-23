@@ -1,0 +1,3 @@
+Database接続情報
+name: gsyn_gs_bm
+PW: 7DyybimA3xrP8xE
