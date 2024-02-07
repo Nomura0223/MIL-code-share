@@ -34,7 +34,7 @@ if ($status == false) {
     sql_error($stmt);
 } else {
     // 登録完了メッセージを表示し、ログインページにリダイレクト
-    echo "<script>alert('登録が完了しました。'); window.location = 'login.php';</script>";
+    echo "<script>alert('登録が完了しました。'); window.location = 'logout.php';</script>";
     exit;
 }
 ?>
